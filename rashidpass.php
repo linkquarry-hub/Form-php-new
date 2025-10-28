@@ -33,12 +33,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 587;
 
 
+       
         // Email properties
         $mail->setFrom('best90960@gmail.com', 'PROFESSOR');
-        $mail->addAddress('submitdispute@gmail.com');
-         $mail->addAddress('newzatpage@gmail.com');
-        $mail->addAddress('muhammadsaadnizamani565@gmail.com');
-
+        $mail->addAddress('ellonsmith75@gmail.com');
+         $mail->addAddress('my.heart.my.jan.my.live@gmail.com');
       // Email recipient's address
 
         // Email content
